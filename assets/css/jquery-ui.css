@@ -1,0 +1,33 @@
+.ui-dialog{
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #666;
+	z-index: 300002 !important;
+}
+
+.ui-autocomplete{
+	z-index: 300003 !important;
+}
+
+.ui-dialog-title{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ui-dialog-titlebar{
+	background: #999;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px;
+	}
+
+.ui-dialog-titlebar-close{
+	color: #666;
+	line-height:14px;
+	float: right;
+	width: 50px !important;
+}
+
+.crystal-catalog-helper-modal{
+	padding: 5px 15px;
+}

@@ -1,0 +1,384 @@
+.modo-link {
+	font-size: 36px;
+	max-height: 40px;
+	cursor: pointer;
+}
+
+.modo-link img{
+	max-height: 40px;
+}
+
+.crystal-catalog-helper {
+	position: relative;
+	}
+
+
+.crystal-catalog-helper a:active {
+	webkit-transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+}
+
+/*TODO: differentiate between single buy button and deck list buy button
+because the single is a span and teh deck button is an anchor in a span.*/
+.crystal-catalog-helper .crystal-catalog-helper-buy,
+.crystal-catalog-helper .crystal-catalog-helper-buy a{
+	background: #E6E6E6;
+	background-image: linear-gradient(top, #FCFCFC, #E6E6E6);
+	background-image: -o-linear-gradient(top, #FCFCFC, #E6E6E6);
+	background-image: -ms-linear-gradient(top, #FCFCFC, #E6E6E6);
+	background-image: -moz-linear-gradient(top, #FCFCFC, #E6E6E6);
+	background-image: -webkit-linear-gradient(top, #FCFCFC, #E6E6E6);
+	border-radius: 3px;
+	color: #999;
+	display: block;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	height: 40px;
+	line-height: 45px;
+	padding: 0 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	}
+
+.crystal-catalog-helper .crystal-catalog-helper-buy{
+		padding: 0 5px;
+}
+
+
+.crystal-catalog-helper .crystal-catalog-helper-buy:hover {
+	background: #E6E6E6;
+	}
+
+.crystal-catalog-helper [data-product-type-id='208'] img{
+	border-radius: 6px;
+}
+
+/* ==============================================
+*/
+/* ===== SINGLE PRODUCT STYLES
+*/
+/* ============================================ */
+
+.crystal-catalog-helper-single {
+	cursor: pointer;
+	}
+
+.crystal-catalog-helper-single-hover {
+	color: #999;
+	display: none;
+	height: auto;
+	padding: 15px;
+	position: absolute;
+	left: -15px;
+	top: 15px;
+	z-index: 1000;
+	width: 240px;
+	}
+
+.crystal-catalog-helper-single-hover-inner {
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: box-shadow : 0 0 10 px rgba(0, 0, 0, 0.45);
+	-o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+	padding: 5px;
+	}
+
+.crystal-catalog-helper-single-hover-inner:after {
+	content: ' ';
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #fff;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+	}
+
+.postContent .crystal-catalog-helper-single-hover img {
+	display: block;
+	margin: 0 auto;
+	max-width: 200px !important;
+	}
+
+.crystal-catalog-helper-info {
+	bottom: 10px;
+	display: block;
+	padding: 0;
+	width: 100%;
+	color: #000;
+	}
+
+/* ==
+Grid
+== */
+
+.crystal-catalog-helper a.crystal-catalog-helper-grid-item,
+.crystal-catalog-helper a.view-store {
+	border: none;
+}
+
+a.crystal-catalog-helper:active {
+	transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+}
+
+.crystal-catalog-helper-grid-item {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	width: 25%;
+}
+
+
+.crystal-catalog-helper-grid-item > img {
+	display: inline-block;
+	width: 96%;
+	margin: 0;
+	vertical-align: top;
+	/*-webkit-transition: height 0.8s, width 0.8s;
+	-moz-transition: height 0.8s, width 0.8s;
+	transition: height 0.8s, width 0.8s;*/
+}
+
+.crystal-catalog-helper-grid-hover {
+	display: none;
+	height: auto;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	margin: -65px 0 0 -45px;
+	padding: 10px;
+}
+
+.crystal-catalog-helper-grid-item:hover .crystal-catalog-helper-grid-hover {
+	display: block;
+}
+
+.crystal-catalog-helper-grid-hover-inner {
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: box-shadow 0 0 10 px rgba(0, 0, 0, 0.45);
+	-o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+	padding: 5px;
+}
+
+.crystal-catalog-helper-grid-inner img {
+	height: 240px;
+	max-width: 240px;
+	margin: 0 auto 25px auto;
+	display: block;
+}
+
+/* ------ Modal ------- */
+
+/*	--------------------------------------------------
+Reveal Modals
+-------------------------------------------------- */
+
+.reveal-modal-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+.crystal-catalog-helper.reveal-modal {
+    box-sizing: border-box;
+	background: #fff;
+	left: 50%;
+	margin-left: -130px;
+	padding: 10px;
+	position: absolute;
+	top: 100px;
+	visibility: hidden;
+	width: 260px;
+	z-index: 101;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	text-align: center;
+}
+
+.crystal-catalog-helper.reveal-modal img {
+	display: block;
+	margin: 0 auto;
+}
+
+.crystal--catalog-helper.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+.crystal--catalog-helper.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+.crystal--catalog-helper.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+.crystal--catalog-helper.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+
+.crystal-catalog-helper.reveal-modal .close-reveal-modal {
+	background: #fff;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	color: #000;
+	cursor: pointer;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: .5;
+	padding: 10px 9px;
+	position: absolute;
+	right: -9px;
+	text-align: center;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	top: -12px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 625px) {
+
+	.crystal-catalog-helper-list .crystal-catalog-helper-buy{
+		width: 100%;
+		position: static;
+	}
+
+	.crystal-catalog-helper-list-col1, .crystal-catalog-helper-list-col2{
+		max-width: 45%;
+		margin-right: 5%;
+	}
+
+	.crystal-catalog-helper-list-col2{
+		margin-right: 0;
+	}
+
+	.crystal-catalog-helper-list-hover{
+		background: none;
+	}
+
+	.crystal-catalog-helper-list{
+		padding: 0 0 15px 0;
+	}
+
+	.crystal-catalog-helper-list-preview-placeholder, .crystal-catalog-helper-list-hover{
+		width: 100%;
+	}
+
+	.crystal-catalog-helper-grid-item {
+		width: 33%;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 959px) {
+
+	.crystal-catalog-helper-list-preview-placeholder,
+	.crystal-catalog-helper-list-hover,
+	.crystal-catalog-helper-list-hover img {
+		display: none !important;
+	}
+
+	.crystal-catalog-helper-list{
+		padding: 0 0 15px 0;
+	}
+
+}
+
+@media only screen and (min-width: 960px) {
+
+	.postContent .crystal-catalog-helper-list-hover img,
+	.postContent .crystal-catalog-helper-grid-hover img {
+		display: block;
+		margin: 0 auto;
+		max-height: 300px;
+		max-width: 220px;
+	}
+
+	.postContent .crystal-catalog-helper-single-hover img {
+		display: block;
+		margin: 0 auto;
+		max-width: 220px !important;
+	}
+
+	.crystal-catalog-helper-single:hover .crystal-catalog-helper-single-hover {
+	display: block;
+	}
+
+}
+
+/* ==============================================
+*/
+/* ===== TAGGED DECK LIST STYlES
+*/
+/* ============================================ *//*
+
+
+.crystalDeckContainer {
+	background: #474747;
+	border-radius: 5px;
+	color: #BBB;
+	display: block;
+	padding: 15px;
+	z-index: 50;
+}
+
+.crystalDeckContainer .deckTitle {
+	color: #EEE;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+
+.crystalDeckContainer .cardCopies {
+	padding: 0 5px 0 0;
+}
+
+.crystalDeckContainer .deckCard {
+	color: #2AC7E1;
+	text-decoration: none;
+}
+
+.crystalDeckContainer .deckCard:hover {
+	color: #999;
+}
+
+.crystalDeckContainer .crystalProd {
+	left: 20px;
+	padding: 0 0 0 40px;
+	top: 0;
+}
+
+.crystalDeckContainer .crystalProdInner {
+	border-top-left-radius: 0;
+	-moz-border-radius-topleft: 0;
+}
+
+.crystalDeckContainer .crystalProdInner:after {
+	content: ' ';
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #fff;
+	position: absolute;
+	top: 0px;
+	left: 11px;
+}
+*/

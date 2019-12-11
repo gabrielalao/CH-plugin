@@ -1,0 +1,229 @@
+.crystal-catalog-helper-list {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    margin: 10px 0;
+    min-height: 260px;
+    padding: 10px 0 15px 0;
+}
+
+.crystal-catalog-helper-list-col1,
+.crystal-catalog-helper-list-col2 {
+    display: inline-block;
+    margin-right: 2%;
+    max-width: 30%;
+    vertical-align: top;
+}
+
+.crystal-catalog-helper-list-preview-placeholder,
+.crystal-catalog-helper-list-hover {
+    background: url("/wp-content/plugins/crystal-helper/assets/img/mtg_card_back.jpg") top center no-repeat;
+    border-radius: 5px;
+    display: block;
+    height: 220px;
+    width: 220px;
+}
+
+.crystal-catalog-helper-list-preview-placeholder {
+    float: right;
+}
+
+.crystal-catalog-helper-list-hover {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.crystal-catalog-helper-list-hover {
+    background: #FFFFFF;
+    display: none;
+    z-index: 1000;
+}
+
+.crystal-catalog-helper-list-item:hover .crystal-catalog-helper-list-hover {
+    display: block;
+}
+
+.postContent .crystal-catalog-helper-list-hover img,
+.postContent .crystal-catalog-helper-grid-hover img {
+    display: block;
+    margin: 0 auto;
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.crystal-catalog-helper-sublist {
+    margin-bottom: 10px;
+}
+
+.crystal-catalog-helper-list-item {
+    color: #2AC7E1;
+    cursor: pointer;
+    display: block;
+}
+
+.crystal-catalog-helper-list-item .qty {
+    color: #999999;
+}
+
+.crystal-catalog-helper-subtitle {
+    color: #999999;
+    cursor: default;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.crystal-catalog-helper .view-store {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.crystal-catalog-helper.reveal-modal a.view-store {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.crystal-catalog-helper-list .formatted-list {
+    margin-bottom: 20px;
+    min-height: 307px;
+}
+
+.crystal-catalog-helper-sublist {
+    margin-bottom: 10px;
+}
+
+.crystal-catalog-helper-list-item {
+    color: #2AC7E1;
+    cursor: pointer;
+    display: block;
+}
+
+.crystal-catalog-helper-list-item .qty {
+    color: #999999;
+}
+
+.crystal-catalog-helper-subtitle {
+    color: #999999;
+    cursor: default;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.crystal-catalog-helper .view-store {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.crystal-catalog-helper.reveal-modal a.view-store {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/* BUTTONS */
+
+.crystal-catalog-helper .list-button {
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    background: #EBEBEB;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box; /* Opera/IE 8+ */
+	float: right;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+	width: auto;
+}
+
+.crystal-catalog-helper-list .list-button a {
+    color: #888888;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none !important;
+}
+
+.crystal-catalog-helper-list .buttons-container .list-button:first-child a {
+    margin: 0;
+}
+
+.crystal-catalog-helper-list .buttons-container .list-button.buy {
+    background: #36AFB5;
+    border: 1px solid #36AFB5;
+    color: #FFFFFF;
+}
+
+.crystal-catalog-helper-list .buttons-container .list-button.buy a {
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.crystal-catalog-helper-list .list-button.copy {
+    background: #727272;
+}
+
+.crystal-catalog-helper-list .list-button.copy a {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+/* TEXT DECK LIST */
+
+.crystal-catalog-helper .plain-text-list-container {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.postContent .crystal-catalog-helper pre {
+	padding-bottom: 66px;
+}
+
+.crystal-catalog-helper .plain-text-list-container .plain-text-decklist {
+    font-size: 14px;
+}
+
+.crystal-catalog-helper .plain-text-list-container textarea {
+    left: -9999px;
+    position: absolute;
+}
+
+.crystal-catalog-helper .plain-text-list-container .list-button {
+    bottom: 10px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+}
+
+.crystal-catalog-helper .message {
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.crystal-catalog-helper .success.message {
+    background-color: #4fa133;
+	border-radius: 4px;
+	color: #FFFFFF;
+}
+
+.crystal-catalog-helper
+.plain-text-list-container
+.decklist-copy.success.message {
+    bottom: 60px;
+    position: absolute;
+    right: 10px;
+}

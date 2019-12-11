@@ -1,0 +1,149 @@
+.crystal-catalog-helper .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.crystal-catalog-helper .float-right {
+    float: right;
+}
+
+.crystal-catalog-helper .hide,
+.crystal-catalog-helper .admin-hide {
+    display: none !important;
+}
+
+.crystal-catalog-helper {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+
+    /* No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+
+    border-bottom: 1px dashed #01B1B1;
+    color: #01B1B1;
+    font-family: arial, sans-serif;
+    position:relative;
+    text-decoration: none;
+}
+
+.crystal-catalog-helper a {
+    color: #01B1B1;
+    text-decoration: none;
+}
+
+.crystal-catalog-helper .modal-link {
+    display: block;
+}
+
+.crystal-catalog-helper .modal-link img {
+    width: 40px;
+}
+
+.crystal-catalog-helper:hover {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+
+    /* No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+
+    background: #a1e2e2;
+    border-radius: 4px;
+    color: #008888;
+    cursor: pointer;
+}
+
+.crystal-catalog-helper>.remove {
+    display: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    left: 2px;
+    background: url('https://firebasestorage.googleapis.com/v0/b/mobiledatingapp.appspot.com/o/failure.png?alt=media&token=25ff9f27-54ce-47bc-8ff8-77de46fb6895') center center no-repeat white;
+    border-radius: 3px;
+    border: 1px solid #cc0011;
+}
+
+.crystal-catalog-helper:hover>.remove {
+    display:block;
+}
+
+.crystal-catalog-helper-list,
+.crystal-catalog-helper-grid {
+    border-radius: 4px;
+    border: 1px dashed #01B1B1;
+    padding:5px;
+}
+
+.crystal-catalog-helper-list-item {
+    display:block;
+    padding:2px 0;
+}
+
+.crystal-catalog-helper-list-preview-placeholder {
+    display:none;
+}
+
+.crystal-catalog-helper-grid {
+}
+
+.crystal-catalog-helper-grid-item {
+    display:inline-block;
+    height:130px;
+    margin:3px;
+}
+
+.crystal-catalog-helper-grid-item img {
+    height:100%;
+    width: auto;
+}
+
+.crystal-catalog-helper-subtitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.crystal-catalog-helper-list-col1 {
+    display:inline-block;
+    margin-right:2%;
+    max-width:47%;
+    vertical-align:top;
+}
+
+.crystal-catalog-helper-list-col2 {
+    display:inline-block;
+    max-width:50%;
+    vertical-align:top;
+}
+
+.crystal-catalog-helper-buy {
+    display:none;
+}
+
+.crystal-catalog-helper-sublist {
+    margin-bottom: 10px;
+}
+
+.crystal-catalog-helper-list-item {
+    color: #2AC7E1;
+    cursor: pointer;
+    display: block;
+}
+
+.crystal-catalog-helper-list-item .qty {
+    color: #999;
+}
+
+.crystal-catalog-helper-subtitle {
+    color: #999;
+    cursor: default;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
